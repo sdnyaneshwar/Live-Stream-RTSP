@@ -1,27 +1,5 @@
 RTSP Livestream App
 A full-stack application for streaming RTSP video feeds in a web browser with support for custom overlays (text and images) that can be created, read, updated, and deleted via a RESTful API. Built with Flask, MongoDB, React, and FFmpeg for RTSP-to-HLS conversion.
-Project Structure
-rtsp_livestream_app/
-├── backend/
-│   ├── app.py                # Flask backend with RTSP streaming and CRUD API
-│   ├── requirements.txt      # Python dependencies
-│   ├── ffmpeg.log            # FFmpeg logs (generated during runtime)
-│   └── .env.example          # Example environment variables
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   │   └── LandingPage.jsx  # React component for the landing page
-│   │   ├── api.js            # API client for backend communication
-│   │   ├── App.jsx           # Main React app component
-│   │   └── index.jsx         # React entry point
-│   ├── package.json          # Node dependencies and scripts
-│   ├── vite.config.js        # Vite configuration
-│   └── public/               # Static assets
-├── docs/
-│   ├── api.md                # API documentation
-│   └── user_guide.md         # User documentation
-├── docker-compose.yml        # Docker Compose for MongoDB and Flask
-└── README.md                 # This file
 
 Prerequisites
 
